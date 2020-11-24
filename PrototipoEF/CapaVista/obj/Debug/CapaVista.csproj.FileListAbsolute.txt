@@ -1,0 +1,6 @@
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaVista.dll
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaVista\bin\Debug\CapaVista.pdb
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.csprojAssemblyReference.cache
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.dll
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaVista\obj\Debug\CapaVista.pdb

@@ -1,0 +1,9 @@
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaModelo\bin\Debug\CapaControlador.dll
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaModelo\bin\Debug\CapaControlador.pdb
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaModelo\obj\Debug\Capa_Modelo.csprojAssemblyReference.cache
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaModelo\obj\Debug\Capa_Modelo.csproj.CoreCompileInputs.cache
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaModelo\obj\Debug\Capa_Modelo.csproj.CopyComplete
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\alexs\PrototipoEF\PrototipoEF\CapaModelo\obj\Debug\CapaModelo.pdb
