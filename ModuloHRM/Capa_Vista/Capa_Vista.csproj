@@ -108,6 +108,12 @@
     <Compile Include="Vista Capacitacion\frmMantenimientoCapacitacion.Designer.cs">
       <DependentUpon>frmMantenimientoCapacitacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vista Mantenimientos\Puesto\frmMantenimientoPuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista Mantenimientos\Puesto\frmMantenimientoPuesto.Designer.cs">
+      <DependentUpon>frmMantenimientoPuesto.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vista Capacitacion\frmMantenimientoCapacitacion.resx">
       <DependentUpon>frmMantenimientoCapacitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista Mantenimientos\Puesto\frmMantenimientoPuesto.resx">
+      <DependentUpon>frmMantenimientoPuesto.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -166,12 +166,27 @@ namespace Capa_Vista
 
 
         }
-        
+       
         private void tsmiCapacitacionReporte_Click(object sender, EventArgs e)
         {
             // LLAMAR FUNCIÓN PARA REPORTE CAPACITACION \\
             funcAbrirFormEnPanel(new Vista_Reportes.frmReporteCapacitacion());
         }
 
+        private void cursosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            clsVistaBitacora bit = new clsVistaBitacora();
+            clsFuncionesSeguridad seguridad = new clsFuncionesSeguridad();
+            if (seguridad.PermisosAcceso("15", txtUsuario.Text) == 1)
+            {
+                bit.user(txtUsuario.Text);
+                funcAbrirFormEnPanel(new Vista_Mantenimientos.Puesto.frmMantenimientoPuesto(txtUsuario.Text, this));
+            }
+            else
+            {
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+            
+        }
     }
 }

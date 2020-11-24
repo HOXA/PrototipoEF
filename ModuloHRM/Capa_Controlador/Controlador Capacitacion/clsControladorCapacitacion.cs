@@ -128,5 +128,11 @@ namespace Capa_Controlador.Controlador_Capacitación
             //Llamada consulta
             cons.funcEliminarCapa(idCapa, idEncCapa);
         }
+        public DataTable funcItemsEmp()
+        {
+
+            DataTable Items = cons.funcItemsEmp();
+            return Items;
+        }
     }
 }

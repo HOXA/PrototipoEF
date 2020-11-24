@@ -118,11 +118,11 @@
             this.tbcCursos.Controls.Add(this.tbpIngresar);
             this.tbcCursos.Controls.Add(this.tbpEditar);
             this.tbcCursos.Controls.Add(this.tbpEliminar);
-            this.tbcCursos.Location = new System.Drawing.Point(14, 38);
+            this.tbcCursos.Location = new System.Drawing.Point(14, 13);
             this.tbcCursos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbcCursos.Name = "tbcCursos";
             this.tbcCursos.SelectedIndex = 0;
-            this.tbcCursos.Size = new System.Drawing.Size(489, 487);
+            this.tbcCursos.Size = new System.Drawing.Size(489, 512);
             this.tbcCursos.TabIndex = 0;
             // 
             // tbpIngresar
@@ -143,7 +143,7 @@
             this.tbpIngresar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbpIngresar.Name = "tbpIngresar";
             this.tbpIngresar.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tbpIngresar.Size = new System.Drawing.Size(481, 458);
+            this.tbpIngresar.Size = new System.Drawing.Size(481, 483);
             this.tbpIngresar.TabIndex = 0;
             this.tbpIngresar.Text = "Ingresar Curso";
             // 
@@ -327,7 +327,7 @@
             this.tbpEditar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbpEditar.Name = "tbpEditar";
             this.tbpEditar.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tbpEditar.Size = new System.Drawing.Size(481, 458);
+            this.tbpEditar.Size = new System.Drawing.Size(481, 483);
             this.tbpEditar.TabIndex = 1;
             this.tbpEditar.Text = "Editar Curso";
             // 
@@ -522,7 +522,7 @@
             this.tbpEliminar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbpEliminar.Name = "tbpEliminar";
             this.tbpEliminar.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tbpEliminar.Size = new System.Drawing.Size(481, 458);
+            this.tbpEliminar.Size = new System.Drawing.Size(481, 483);
             this.tbpEliminar.TabIndex = 2;
             this.tbpEliminar.Text = "Elminar Curso";
             // 
