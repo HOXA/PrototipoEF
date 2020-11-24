@@ -45,6 +45,7 @@
             this.tsmiAyuda = new System.Windows.Forms.ToolStripMenuItem();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.pnlContenedor = new System.Windows.Forms.Panel();
+            this.cursosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mspMDI.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,7 +87,8 @@
             // tsmiMantenimientos
             // 
             this.tsmiMantenimientos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiCapacitacion});
+            this.tsmiCapacitacion,
+            this.cursosToolStripMenuItem});
             this.tsmiMantenimientos.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tsmiMantenimientos.Name = "tsmiMantenimientos";
             this.tsmiMantenimientos.Size = new System.Drawing.Size(108, 20);
@@ -131,7 +133,7 @@
             this.tsmiIngresarNuevaCapacitacionProceso,
             this.tsmiIngresoDeCursos});
             this.tsmiCapacitacionProceso.Name = "tsmiCapacitacionProceso";
-            this.tsmiCapacitacionProceso.Size = new System.Drawing.Size(180, 22);
+            this.tsmiCapacitacionProceso.Size = new System.Drawing.Size(145, 22);
             this.tsmiCapacitacionProceso.Text = "Capacitación";
             // 
             // tsmiIngresarNuevaCapacitacionProceso
@@ -167,7 +169,7 @@
             // tsmiCapacitacionReporte
             // 
             this.tsmiCapacitacionReporte.Name = "tsmiCapacitacionReporte";
-            this.tsmiCapacitacionReporte.Size = new System.Drawing.Size(180, 22);
+            this.tsmiCapacitacionReporte.Size = new System.Drawing.Size(145, 22);
             this.tsmiCapacitacionReporte.Text = "Capacitación";
             this.tsmiCapacitacionReporte.Click += new System.EventHandler(this.tsmiCapacitacionReporte_Click);
             // 
@@ -197,6 +199,13 @@
             this.pnlContenedor.Size = new System.Drawing.Size(731, 406);
             this.pnlContenedor.TabIndex = 1;
             // 
+            // cursosToolStripMenuItem
+            // 
+            this.cursosToolStripMenuItem.Name = "cursosToolStripMenuItem";
+            this.cursosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cursosToolStripMenuItem.Text = "Cursos";
+            this.cursosToolStripMenuItem.Click += new System.EventHandler(this.cursosToolStripMenuItem_Click);
+            // 
             // frmMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -211,7 +220,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMDI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "0901-17-17587 Raul Alexander Sandoval Estrada ";
+            this.Text = "301 - Módulo de Recursos Humanos";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMDI_Load);
             this.mspMDI.ResumeLayout(false);
@@ -240,5 +249,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiMantenimientosDeCursos;
         private System.Windows.Forms.ToolStripMenuItem tsmiIngresoDeCursos;
         private System.Windows.Forms.Panel pnlContenedor;
+        private System.Windows.Forms.ToolStripMenuItem cursosToolStripMenuItem;
     }
 }

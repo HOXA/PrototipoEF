@@ -611,5 +611,33 @@ namespace Capa_Modelo.Modelo_Capacitacion
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        public DataTable funcItemsEmp()
+        {
+            //Declaración de DataTable para Datos
+            DataTable Datos = new DataTable();
+            try
+            {
+                //Consulta para Obtener Datos y pasarlos a un DataTable
+                string CargaPuestos = "SELECT * FROM EMPLEADO";
+                OdbcCommand Query_Busqueda1 = new OdbcCommand(CargaPuestos, conexion.funcconexion());
+
+                OdbcDataAdapter Lector = new OdbcDataAdapter();
+                Lector.SelectCommand = Query_Busqueda1;
+                Lector.Fill(Datos);
+
+                conexion.funcdesconexion(conexion.funcconexion());
+                return Datos;
+            }
+            catch (Exception ex)
+            {
+                //Mensaje en dado caso de Error la Consulta
+                MessageBox.Show("Error al ejecutar SQL: " +
+                    System.Environment.NewLine + System.Environment.NewLine +
+                    ex.GetType().ToString() + System.Environment.NewLine +
+                    ex.Message, "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return Datos;
+            }
+        }
     }
 }
