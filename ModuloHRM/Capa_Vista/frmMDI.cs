@@ -180,7 +180,7 @@ namespace Capa_Vista
             if (seguridad.PermisosAcceso("15", txtUsuario.Text) == 1)
             {
                 bit.user(txtUsuario.Text);
-                funcAbrirFormEnPanel(new Vista_Mantenimientos.Puesto.frmMantenimientoPuesto(txtUsuario.Text, this));
+                funcAbrirFormEnPanel(new Vista_Mantenimientos.Puesto.frmMantenimientoCurso(txtUsuario.Text, this));
             }
             else
             {

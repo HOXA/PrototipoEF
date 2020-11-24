@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace Capa_Vista.Vista_Mantenimientos.Puesto
 {
-    public partial class frmMantenimientoPuesto : Form
+    public partial class frmMantenimientoCurso : Form
     {
         string UsuarioAplicacion;
         static Form FormularioPadre;
 
         clsControladorCapacitacion Cont = new clsControladorCapacitacion();
 
-        public frmMantenimientoPuesto(string usuario, Form formularioPadre)
+        public frmMantenimientoCurso(string usuario, Form formularioPadre)
         {
             InitializeComponent();
             UsuarioAplicacion = usuario;

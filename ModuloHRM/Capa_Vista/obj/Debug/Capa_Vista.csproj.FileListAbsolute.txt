@@ -389,7 +389,6 @@ C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\obj\Debug\Capa_Vista.Vista_Capac
 C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\obj\Debug\Capa_Vista.Vista_Capacitacion.frmEmpCapacitado.resources
 C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\obj\Debug\Capa_Vista.Vista_Capacitacion.frmIngresoCurso.resources
 C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\obj\Debug\Capa_Vista.Vista_Capacitacion.frmMantenimientoCapacitacion.resources
-C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\obj\Debug\Capa_Vista.Vista_Mantenimientos.Puesto.frmMantenimientoPuesto.resources
 C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\obj\Debug\Capa_Vista.csproj.GenerateResource.cache
 C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\obj\Debug\Capa_Vista.csproj.CoreCompileInputs.cache
 C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\obj\Debug\Capa_Vista.dll
@@ -439,3 +438,4 @@ C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\bin\Debug\CapaControlador.pdb
 C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\bin\Debug\CapaModeloNavegador.pdb
 C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\bin\Debug\CapaModelo.pdb
 C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\obj\Debug\Capa_Vista.csproj.CopyComplete
+C:\Users\alexs\PrototipoEF\ModuloHRM\Capa_Vista\obj\Debug\Capa_Vista.Vista_Mantenimientos.Puesto.frmMantenimientoCurso.resources

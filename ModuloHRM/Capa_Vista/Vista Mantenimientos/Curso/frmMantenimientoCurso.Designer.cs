@@ -1,6 +1,6 @@
 ﻿namespace Capa_Vista.Vista_Mantenimientos.Puesto
 {
-    partial class frmMantenimientoPuesto
+    partial class frmMantenimientoCurso
     {
         /// <summary>
         /// Required designer variable.
@@ -200,7 +200,7 @@
             this.txtEstado.Tag = "estado_curso";
             this.txtEstado.Visible = false;
             // 
-            // frmMantenimientoPuesto
+            // frmMantenimientoCurso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -224,8 +224,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frmMantenimientoPuesto";
-            this.Text = "309 - Mantenimiento Puestos";
+            this.Name = "frmMantenimientoCurso";
+            this.Text = "Mantenimiento Curso";
             ((System.ComponentModel.ISupportInitialize)(this.dgvCurso)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
